@@ -34,6 +34,54 @@ Once code is added, the next step will be as:
 
  ![image](https://user-images.githubusercontent.com/51231889/172003642-e68d8a69-01e5-4263-b6ef-215d4e1fac98.png)
 
+## Input Templates and Formats
+### Sample CSV
+The "Sample CSV file" link on the website allows you to download the sample CSV format in which the data of the customers can be added and uploaded to the "Upload your file" upload button. 
+
+The format of the file should be saved as a CSV as the upload your file button accepts the file in CSV format only. 
+
+Whenever possible, it's better to use the sample template downloaded from the website home page.
+
+### Sample document template for Doc Gen
+The sample "SettlementTemplate.docx" shared on the Git hub repository is the sample that we have used in this project. 
+The tags added to this document were added using the "Document Generation Add-in" for MS Word to generate tags, and uses the JSON generated using the getJSONResponse() in the GS Class.
+
+In order to test the Sample template the JSON can be used along with the Document Generation Add-in for MS-Word in the following format. 
+
+### Sample JSON for SettlementTemplate.docx
+{
+    "Title": "Mr.",
+    "Name": "Bhavesh",
+    "Street": "123",
+    "City": "Bangalore",
+    "State": "KA",
+    "Zip": "513265",
+    "CustomerId": "2505222",
+    "CCNo": "4578652378964150",
+    "Segment": "Silver",
+    "Limit": "150000",
+    "Outstanding": "100000",
+    "SettlementAmt": "20000",
+    "DueDate": "26-07-2022",
+    "Settlements": [
+        {
+            "SrNo": "1",
+            "Mode Of Payment": "cash",
+            "Bank Name": "-",
+            "Branch": "-",
+            "Due Date": "26-06-2022",
+            "Amount": "40000"
+        },
+        {
+            "SrNo": "2",
+            "Mode Of Payment": "cash",
+            "Bank Name": "-",
+            "Branch": "-",
+            "Due Date": "26-07-2022",
+            "Amount": "40001"
+        }
+    ]
+}
 
 **Final Process**
 
