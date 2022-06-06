@@ -25,10 +25,7 @@ Once code is added, the next step will be as:
 
 
 ## Running of Application
-### Required inputs
-- The csv file with details for each customer
 
-### Sample for csv file will be provided shortly.
 ### Details of Execution will be published once the code is added.
 **Current Process**
 
